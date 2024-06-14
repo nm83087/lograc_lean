@@ -390,7 +390,6 @@ lemma euclid (a b n : ℕ) : (n ∣ a * b ∧ n.gcd a = 1) → n ∣ b := by
         -- It can now be shown that 0 < (a-n) b < ab when we induct.
 
 
-
     -- n > a
     case neg := by
       sorry
